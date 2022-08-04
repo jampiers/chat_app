@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Chat</title> 
+    <link rel="stylesheet" href="build/css/app.css">
+  
+</head>
+<body class="body">
+
+    <div class="contenedor app">
+        <div class="app__contenido">
+            <div class="app__pantalla">
+
+                    <nav class="nav">
+                        <a href="#" class="nav__enlace">See profile</a>
+                        <a href="#" class="nav__enlace">Call</a>
+                        <a href="#" class="nav__enlace">Report</a>
+                    </nav>
+                    
+                    <div class="personal">
+                        <div class="personal__contenido">
+                            <button class="app__atras"></button>
+
+                            <div class="personal__info">
+                                <picture>
+                                    <source srcset="build/img/avatar.avif" type="image/avif">
+                                    <source srcset="build/img/avatar.webp" type="image/webp">
+                                    <img loading="lazy" src="build/img/avatar.jpg" width="500" height="300" alt="Imagen Personal" class="personal__imagen">
+                                </picture>
+
+                                <div>
+                                    <p class="personal__nombre">Samuel Green</p>
+                                    <p class="personal__estado">Available to Walk</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="app__puntos">
+                                <span class="app__punto"></span>
+                                <span class="app__punto"></span>
+                                <span class="app__punto"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="app__chat">
+                        <div class="p-conversacion">
+                            <p class="p-conversacion__mensaje">That sounds great. I'd be happy to discuss more.</p>
+                            <p class="p-conversacion__mensaje">Could you send over some pictures of your dog, please?</p>
+                        </div>
+
+                        <div class="s-conversacion">
+                            <div class="s-conversacion__imagen-c">
+                                <picture>
+                                    <source srcset="build/img/dog-image-1.avif" type="image/avif">
+                                    <source srcset="build/img/dog-image-1.webp" type="image/webp">
+                                    <img loading="lazy" src="build/img/dog-image-1.jpg" width="500" height="300" alt="Imagen Perro" class="s-conversacion__imagen">
+                                </picture>
+
+                                <picture>
+                                    <source srcset="build/img/dog-image-2.avif" type="image/avif">
+                                    <source srcset="build/img/dog-image-2.webp" type="image/webp">
+                                    <img loading="lazy" src="build/img/dog-image-2.jpg" width="500" height="300" alt="Imagen Perro" class="s-conversacion__imagen">
+                                </picture>
+
+                                <picture>
+                                    <source srcset="build/img/dog-image-3.avif" type="image/avif">
+                                    <source srcset="build/img/dog-image-3.webp" type="image/webp">
+                                    <img loading="lazy" src="build/img/dog-image-3.jpg" width="500" height="300" alt="Imagen Perro" class="s-conversacion__imagen">
+                                </picture>
+                            </div>
+
+                            <p class="s-conversacion__mensaje">Here are a few pictures. She's a happy girl.</p>
+                            <p class="s-conversacion__mensaje">Can you make it?</p>
+                        </div>
+
+                        <div class="t-conversacion">
+                            <p class="t-conversacion__mensaje">She looks so happy! The time we discussed works. How long shall i take her out for?</p>
+
+                            <div class="seleccionar">
+                                <div class="seleccionar__radio">
+                                    <div class="seleccionar__radio-c">
+                                        <input type="radio" name="paseo" id="" class="seleccionar__input-radio">
+                                        <p class="seleccionar__texto">30 minute walk</p>
+                                    </div>
+
+                                    <p class="seleccionar__precio">$29</p>
+                                </div>
+
+                                <div class="seleccionar__radio">
+                                    <div class="seleccionar__radio-c">
+                                        <input type="radio" name="paseo" id="" class="seleccionar__input-radio">
+                                        <p class="seleccionar__texto">1 hour walk</p>
+                                    </div>
+
+                                    <p class="seleccionar__precio">$49</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="form-chat">
+                            <input type="text" class="form-chat__input" placeholder="Type a message...">
+                            <button type="submit" class="form-chat__submit"></button>
+                        </form>
+                    </div>
+                </div>
+
+            
+
+            <div class="app__info">
+                <h1>Simple booking</h1>
+                <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+            </div>
+        </div>
+
+        <p class="autor">Challenge by Frontend Mentor. Coded by Jampiers Alexader Mucha Osorio.</p>
+    </div>
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>
